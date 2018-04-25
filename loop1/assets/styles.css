@@ -6,5 +6,15 @@ body {
 }
 
 .white-box {
+  margin-top: 20px;
   background-color: #fff;
+  display: flex;
+}
+
+h1 {
+  color: #5572d6;
+}
+
+p {
+  color: #a7a7a7;
 }
