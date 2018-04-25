@@ -3,6 +3,8 @@
 body {
   height: 100%;
   background-color: #85a5d4;
+  font-family: sans-serif;
+  padding: 4px;
 }
 
 .white-box {
@@ -17,4 +19,9 @@ h1 {
 
 p {
   color: #a7a7a7;
+}
+
+.frame {
+  text-align: center;
+  padding: 12px;
 }
