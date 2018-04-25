@@ -21,6 +21,7 @@ img {
   margin-top: 32px;
   height: 64px;
 }
+
 h1, h3 {
   color: #5572d6;
 }
@@ -38,4 +39,9 @@ p {
 .frame {
   text-align: center;
   flex-basis: 218px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
 }
