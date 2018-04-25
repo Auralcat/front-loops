@@ -1,1 +1,10 @@
 /* Sample CSS file */
+
+body {
+  height: 100%;
+  background-color: #85a5d4;
+}
+
+.white-box {
+  background-color: #fff;
+}
