@@ -6,6 +6,11 @@ body {
 .dots-on-screen {
   /* Squeeze the dots */
   margin: -16px;
+  letter-spacing: -4px;
+}
+
+.dots-on-screen > span:first-child {
+  color: #afafaf;
 }
 
 .dot {
