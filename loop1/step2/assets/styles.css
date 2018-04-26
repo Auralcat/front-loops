@@ -1,6 +1,7 @@
 body {
   background-image: url(img/background.jpg);
   text-align: center;
+  font-family: sans-serif;
 }
 
 .dots-on-screen {
@@ -42,8 +43,6 @@ body {
 hr {
   color: #afafaf;
   background-color: #afafaf;
-  style: solid;
-  width: 100%;
   margin: 0;
 }
 
