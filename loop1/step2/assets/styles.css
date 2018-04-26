@@ -7,10 +7,12 @@ body {
   background-color: #fef;
   display: inline-block;
   border-radius: 2px;
+  width: 360px;
 }
 
 .pay-methods {
   display: inline-block;
+  width: 100%;
 }
 
 
@@ -19,7 +21,6 @@ body {
   text-align: justify;
   justify-content: space-evenly;
   align-items: center;
-  width: 360px;
   flex-basis: 33%;
 }
 
@@ -47,7 +48,7 @@ hr {
 
 .next-step-card {
   color: #fff;
-  background-color: #0000aa;
+  background-color: #598bdd;
   justify-content: center;
   padding: 16px;
 }
