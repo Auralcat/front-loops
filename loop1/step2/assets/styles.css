@@ -1,0 +1,27 @@
+body {
+  background-image: url(img/background.jpg);
+}
+
+.card {
+  background-color: #fef;
+  text-align: center;
+}
+
+.pay-methods {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-flag {
+  height: 32px;
+  width: 100%;
+}
