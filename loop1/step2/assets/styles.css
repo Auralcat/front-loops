@@ -20,9 +20,14 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border-style: solid;
-  border-color: #afafaf;
-  border-width: 1px 0px 1px 0px;
+}
+
+hr {
+  color: #afafaf;
+  background-color: #afafaf;
+  style: solid;
+  width: 100%;
+  margin: 0;
 }
 
 .card-item:hover {
