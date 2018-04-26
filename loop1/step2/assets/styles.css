@@ -7,24 +7,28 @@ body {
   background-color: #fef;
   display: inline-block;
   padding: 16px;
+  border-radius: 2px;
 }
 
 .pay-methods {
-
+  display: inline-block;
 }
 
-li {
-  list-style: none;
-}
 
 .card-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  border-style: solid;
+  border-color: #afafaf;
+  border-width: 1px 0px 1px 0px;
 }
 
 .card-flag {
   height: 32px;
   width: 100%;
+}
+
+.card-name {
 }
