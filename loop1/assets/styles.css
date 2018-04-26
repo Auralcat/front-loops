@@ -45,3 +45,16 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.currency {
+  position: relative;
+  bottom: 16px;
+}
+
+.price-number {
+  font-size: 36px;
+}
+
+.pay-period {
+  font-size: 10px;
+}
