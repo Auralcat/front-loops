@@ -14,11 +14,13 @@ body {
 }
 
 
-.card-item, .next-step-card {
+.card-item {
   display: flex;
+  text-align: justify;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-between;
   width: 360px;
+  flex-basis: 33%;
 }
 
 hr {
@@ -35,11 +37,12 @@ hr {
 
 .card-flag {
   height: 32px;
-  flex-grow: 1;
 }
 
 .card-name {
-  flex-grow: 2;
+  /* By fixing the width of the text element, everything else gets
+     aligned, since this is the element with variable width! */
+  width: 200px;
 }
 
 .next-step-card {
@@ -48,6 +51,5 @@ hr {
 }
 
 .check-mark {
-  flex-grow: 1;
   height: 24px;
 }
