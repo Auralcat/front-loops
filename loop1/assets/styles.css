@@ -53,3 +53,21 @@ p {
 .pay-period {
   font-size: 10px;
 }
+
+@media (max-width: 1050px) {
+  p {
+    height: 80px;
+  }
+}
+
+@media (max-width: 680px) {
+  p {
+    height: 96px;
+  }
+}
+
+@media (max-width: 580px) {
+  p {
+    height: 112px;
+  }
+}
