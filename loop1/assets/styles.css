@@ -22,12 +22,12 @@ img {
   height: 64px;
 }
 
-h1, h3, .price {
+h1, h4, .price {
   color: #5572d6;
 }
 
-h3 {
-  letter-spacing: 4px;
+h4 {
+  letter-spacing: 2px;
 }
 
 p {
