@@ -25,6 +25,10 @@ body {
   border-width: 1px 0px 1px 0px;
 }
 
+.card-item:hover {
+  background-color: #dedede;
+}
+
 .card-flag {
   height: 32px;
   width: 100%;
