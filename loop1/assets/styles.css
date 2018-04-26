@@ -41,6 +41,10 @@ p {
   flex-basis: 20vw;
 }
 
+.frame:hover {
+  background-color: #dfdfdf;
+}
+
 .currency {
   position: relative;
   bottom: 16px;
