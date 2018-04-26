@@ -1,14 +1,16 @@
 body {
   background-image: url(img/background.jpg);
+  text-align: center;
 }
 
 .card {
   background-color: #fef;
-  text-align: center;
+  display: inline-block;
+  padding: 16px;
 }
 
 .pay-methods {
-  display: inline-block;
+
 }
 
 li {
@@ -18,7 +20,8 @@ li {
 .card-item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .card-flag {
