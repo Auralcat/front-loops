@@ -6,7 +6,6 @@ body {
 .card {
   background-color: #fef;
   display: inline-block;
-  padding: 16px;
   border-radius: 2px;
 }
 
@@ -19,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 360px;
 }
 
 hr {
