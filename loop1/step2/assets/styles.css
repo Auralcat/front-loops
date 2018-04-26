@@ -3,6 +3,16 @@ body {
   text-align: center;
 }
 
+.dots-on-screen {
+  /* Squeeze the dots */
+  margin: -16px;
+}
+
+.dot {
+  font-size: 48px;
+  color: #dadada;
+}
+
 .card {
   background-color: #fef;
   display: inline-block;
@@ -34,6 +44,7 @@ hr {
 
 .card-item:hover {
   background-color: #dedede;
+  transition: 0.3s;
 }
 
 .card-flag {
@@ -51,6 +62,11 @@ hr {
   background-color: #598bdd;
   justify-content: center;
   padding: 16px;
+}
+
+.next-step-card:hover {
+  background-color: #6e9ae1;
+  transition: 0.3s;
 }
 
 .check-mark {
