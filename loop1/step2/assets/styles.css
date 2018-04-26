@@ -14,7 +14,7 @@ body {
 }
 
 
-.card-item {
+.card-item, .next-step-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,8 +35,19 @@ hr {
 
 .card-flag {
   height: 32px;
-  width: 100%;
+  flex-grow: 1;
 }
 
 .card-name {
+  flex-grow: 2;
+}
+
+.next-step-card {
+  color: #fff;
+  background-color: #0000aa;
+}
+
+.check-mark {
+  flex-grow: 1;
+  height: 24px;
 }
