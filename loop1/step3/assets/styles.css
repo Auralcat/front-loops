@@ -11,10 +11,11 @@ body {
   background-color: #fef;
   background-image: url(img/bicycle.png);
   background-size: 100%;
-  background-position: 0px 80px;
+  background-position: 0px 104px;
   background-repeat: no-repeat;
   margin: 28px 8vw;
-  height: 336px;
+  padding: 24px 72px;
+  height: 308px;
   overflow: hidden;
 }
 
