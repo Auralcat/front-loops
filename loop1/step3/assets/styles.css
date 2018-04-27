@@ -20,4 +20,5 @@ body {
 .icon-box {
   border-radius: 100%;
   border: 1px solid #ccc;
+  height: 24px;
 }
