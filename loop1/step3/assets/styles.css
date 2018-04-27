@@ -2,13 +2,22 @@ body {
   height: 100%;
   margin: 4px;
   font-family: Roboto;
+  background-color: #aaff03;
 }
 
 .card {
   border-radius: 2px;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fef;
 }
 
-.account-icon {
+.title-account {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
 
+.icon-box {
+  border-radius: 100%;
+  border: 1px solid #ccc;
 }
