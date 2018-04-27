@@ -14,7 +14,7 @@ body {
   background-position: 0px 80px;
   background-repeat: no-repeat;
   margin: 28px 8vw;
-  height: 346px;
+  height: 336px;
   overflow: hidden;
 }
 
@@ -64,6 +64,7 @@ li {
 
 .item-name {
   flex-grow: 32;
+  width: 0px;                   /* Let Flexbox decide the size of the element */
 }
 
 .item-price {
