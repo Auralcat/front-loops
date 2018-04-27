@@ -63,11 +63,10 @@ li {
 }
 
 .item-name {
-  flex-grow: 10;
+  flex-grow: 20;
   width: 0px;                   /* Let Flexbox decide the size of the element */
 }
 
 .item-price {
   flex-grow: 1;
-  width: 0px;
 }
