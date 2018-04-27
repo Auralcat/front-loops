@@ -10,8 +10,12 @@ body {
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
   background-color: #fef;
   background-image: url(img/bicycle.png);
-  background-size: cover;
+  background-size: 100%;
+  background-position: 0px 80px;
+  background-repeat: no-repeat;
   margin: 28px 8vw;
+  height: 346px;
+  overflow: hidden;
 }
 
 .title-account {
