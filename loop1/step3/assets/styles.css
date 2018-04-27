@@ -20,5 +20,18 @@ body {
 .icon-box {
   border-radius: 100%;
   border: 1px solid #ccc;
-  height: 24px;
+  height: auto;
+  background-color: #fef;
+  display: flex;
+  align-items: center;
+}
+
+.account-icon {
+  width: 100%;
+  height: 80%;
+}
+
+.icon-box:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
 }
