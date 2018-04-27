@@ -50,3 +50,15 @@ ul {
   background: url(img/bicycle.png);
   list-style-type: none;
 }
+
+li {
+  display: flex
+}
+
+.item-name {
+  flex-grow: 32;
+}
+
+.item-price {
+  flex-grow: 1;
+}
