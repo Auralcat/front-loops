@@ -7,9 +7,9 @@ body {
 
 .card {
   background-color: #fff;
-  width: 80vw;
+  width: 54vw;
   padding: 16px;
-  margin: auto;
+  margin: 96px 20vw;
 }
 
 /* Center the current day */
