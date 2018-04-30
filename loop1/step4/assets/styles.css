@@ -58,12 +58,30 @@ hr {
   padding: 16px;
 }
 
-.message-and-timestamp {
+.align-left {
   text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.message-and-timestamp {
+  display: inline-block;
 }
 
 .other-message {
   background-color: #e6edf6;
+  padding: 8px;
+}
+
+.user-message {
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+.block-message {
+  background-color: #ffc2c1;
   padding: 8px;
 }
 
@@ -73,5 +91,9 @@ hr {
 }
 
 .other-text {
+  margin: auto;
+}
+
+.user-text {
   margin: auto;
 }
