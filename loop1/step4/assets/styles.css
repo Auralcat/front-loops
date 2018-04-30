@@ -58,8 +58,11 @@ hr {
   padding: 16px;
 }
 
-.other-message {
+.message-and-timestamp {
   text-align: left;
+}
+
+.other-message {
   background-color: #e6edf6;
   padding: 8px;
 }
@@ -67,4 +70,8 @@ hr {
 .timestamp {
   background-color: #fff;
   color: #e6e1de;
+}
+
+.other-text {
+  margin: auto;
 }
