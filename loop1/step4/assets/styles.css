@@ -1,3 +1,18 @@
+body {
+  height: 100%;
+  margin: 4px;
+  text-align: center;
+  background: linear-gradient(0deg, #cfdde8, #8cacc8);
+}
+
+.card {
+  background-color: #fff;
+  width: 80vw;
+  padding: 16px;
+  margin: auto;
+}
+
+/* Center the current day */
 .day-header {
   display: flex;
   align-items: center;
