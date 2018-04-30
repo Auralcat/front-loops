@@ -61,4 +61,10 @@ hr {
 .other-message {
   text-align: left;
   background-color: #e6edf6;
+  padding: 8px;
+}
+
+.timestamp {
+  background-color: #fff;
+  color: #e6e1de;
 }
