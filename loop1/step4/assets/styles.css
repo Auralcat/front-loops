@@ -60,10 +60,12 @@ hr {
 
 .align-left {
   text-align: left;
+  margin-right: 25%;
 }
 
 .align-right {
   text-align: right;
+  margin-left: 25%;
 }
 
 .message-and-timestamp {
