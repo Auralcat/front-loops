@@ -80,6 +80,7 @@ hr {
 .user-message {
   padding: 8px;
   background-color: #f2f2f2;
+  text-align: left;
 }
 
 .block-message {
@@ -121,4 +122,8 @@ hr {
   border: hidden;
   padding: 8px;
   background-color: #fff;
+}
+
+p {
+  font-size: 14px;
 }
