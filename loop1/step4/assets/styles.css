@@ -3,6 +3,7 @@ body {
   margin: 4px;
   text-align: center;
   background: linear-gradient(0deg, #cfdde8, #8cacc8);
+  font-family: Roboto;
 }
 
 .card {
@@ -27,6 +28,7 @@ ul {
 li {
   color: #fff;
   margin-left: -16px;
+  font-weight: bold;
 }
 
 .img-box {
