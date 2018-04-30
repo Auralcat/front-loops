@@ -10,19 +10,27 @@
 </head>
 <body>
     <div class="card">
-        <div class="chat-recipient"></div>
-        <div class="title-timestamp">
+        <div class="chat-recipient">
+            <ul>
+                <li>MARK ZUCKERBERG</li>
+            </ul>
+            <img alt="close" src="assets/img/close.svg"/>
+        </div>
+        <div class="day-header">
+            <hr/><h1 class="current-day">Today</h1><hr/>
+        </div>
+        <div class="message-box">
             <div class="other-message">
-                <span class="timestamp"></span>
-                <p class="other-text"></p>
+                <span class="timestamp">10:53</span>
+                <p class="other-text">Hi, Mark! I made a new design for Messenger App.</p>
             </div>
             <div class="user-message">
-                <span class="timestamp"></span>
-                <p class="user-text"></p>
+                <span class="timestamp">10:57</span>
+                <p class="user-text">Yo! Send it to my assistant and we'll review it during the year.</p>
             </div>
             <div class="other-message">
-                <span class="timestamp"></span>
-                <p class="other-text"></p>
+                <span class="timestamp">11:03</span>
+                <p class="other-text">But Mark...</p>
             </div>
             <div class="block-message">
                 <p>You were blocked by the user</p>
@@ -30,7 +38,8 @@
         </div>
         <hr/>
         <form action="">
-            <input name="" type="text" value="" placeholder="Enter your message"/>
+            <input class="message-input-box" name="" type="text" value="" placeholder="Enter your message"/>
+            <input class="send-button" name="" type="submit" value="SEND"/>
         </form>
     </div>
 </body>
