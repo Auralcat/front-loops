@@ -14,7 +14,7 @@ body {
 
 .chat-recipient {
   display: flex;
-  background-color: #00f;
+  background-color: #6a96d8;
   align-items: center;
   padding: 12px;
 }
@@ -40,6 +40,7 @@ li {
 .day-header {
   display: flex;
   align-items: center;
+  color: #e6e1de;
 }
 
 .current-day {
@@ -49,8 +50,15 @@ li {
 hr {
   width: 60%;
   height: 0px;
+  color: inherit;
 }
+/* -------------------------------------------------------------------------- */
 
 .message-box {
   padding: 16px;
+}
+
+.other-message {
+  text-align: left;
+  background-color: #e6edf6;
 }
