@@ -12,6 +12,24 @@ body {
   margin: 96px 20vw;
 }
 
+.chat-recipient {
+  display: flex;
+  background-color: #00f;
+  align-items: center;
+  padding: 12px;
+}
+
+ul {
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+}
+
+.img-box {
+  flex-grow: 1;
+  text-align: right;
+}
+
 /* Center the current day */
 .day-header {
   display: flex;
