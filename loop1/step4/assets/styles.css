@@ -97,3 +97,26 @@ hr {
 .user-text {
   margin: auto;
 }
+
+.message-input-separator {
+  width: 100%;
+}
+
+.message-input-area {
+  display: flex;
+}
+
+.message-input-box {
+  flex-grow: 20;
+  border: hidden;
+}
+
+.send-button {
+  flex-grow: 1;
+  color: #6a96d8;
+  letter-spacing: 4px;
+  font-weight: bold;
+  border: hidden;
+  padding: 8px;
+  background-color: #fff;
+}
