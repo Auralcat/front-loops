@@ -1,7 +1,7 @@
 body {
   height: 100%;
   margin: 4px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   text-align: center;
   background-color: #4d515d;
 }
@@ -16,13 +16,32 @@ body {
 
 .card {
   flex-basis: 60%;
-  padding: 24px;
+  padding: 60px;
 }
 
 .member-box-and-selection {
   height: 80%;
+  text-align: left;
 }
 
+.main-text {
+  font-weight: 300;
+  margin: 0;
+}
+
+.sub-text {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.social-network-selection {
+
+}
+
+.social-network-item {
+
+}
 .card-footer {
   border-top: 1px solid gray;
   display: flex;
