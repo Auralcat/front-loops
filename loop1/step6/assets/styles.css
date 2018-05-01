@@ -40,8 +40,16 @@ body {
 }
 
 .social-network-item {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid;
 
 }
+
+.google-item {
+  list-style-image: url(img/googleplus.svg);
+}
+
 .card-footer {
   border-top: 1px solid gray;
   display: flex;
