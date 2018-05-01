@@ -26,7 +26,7 @@ body {
   border-radius: 8px;
   margin: 96px 25%;
   width: 50vw;
-  padding: 16px;
+  padding: 32px;
 }
 
 .city-code-and-name-box {
@@ -62,4 +62,34 @@ body {
 .city-name {
   color: #abb5c2;
   flex-grow: 1;
+}
+
+.flight-gate-seat-box {
+  display: flex;
+  width: 80%;
+}
+
+.passenger-info-box {
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.passenger-info-box-and-qr-code {
+  display: flex;
+  margin-top: 16px;
+}
+
+.key-and-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex-basis: 33%;
+}
+
+.key {
+  color: #abb5c2;
+}
+
+.value {
+
 }
