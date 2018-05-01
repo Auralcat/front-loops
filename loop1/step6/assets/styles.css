@@ -6,6 +6,12 @@ body {
   background-color: #4d515d;
 }
 
+/* Modifiers */
+
+.middle-push-vertical {
+  margin: 16px auto;
+}
+
 .container {
   display: flex;
   margin: 32px auto;
@@ -36,14 +42,25 @@ body {
 }
 
 .social-network-selection {
-
+  margin: 64px auto;
 }
 
 .social-network-item {
   width: 100%;
   border-radius: 8px;
-  border: 1px solid;
+  border: 1px solid #eef0f3;
+  padding: 16px;
+}
 
+.social-network-logo {
+  height: 100%;
+  width: 24px;
+}
+
+.social-network-text {
+  color: #8b8b8c;
+  text-transform: uppercase;
+  text-weight: bold;
 }
 
 .google-item {
