@@ -22,6 +22,9 @@ body {
   text-align: right;
 }
 
+.middle-push-vertical {
+  margin: 16px 0px;
+}
 /* --------- */
 
 .card {
@@ -79,8 +82,7 @@ body {
 
 .passenger-info-box {
   flex-direction: column;
-  width: 100%;
-  margin: 16px 0px;
+  flex-grow: 1;
 }
 
 .passenger-info-box-and-qr-code {
@@ -105,4 +107,14 @@ body {
 
 .value {
 
+}
+
+.qr-code {
+  flex-grow: 1;
+  text-align: right;
+}
+
+img {
+  height: 100%;
+  width: 62%;
 }
