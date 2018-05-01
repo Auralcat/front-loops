@@ -77,7 +77,7 @@ body {
 .flight-gate-seat-box {
   display: flex;
   width: 80%;
-  margin: 0;
+  margin-top: 64px;
 }
 
 .passenger-info-box {
