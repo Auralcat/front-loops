@@ -12,6 +12,8 @@ body {
   margin: 16px auto;
 }
 
+/* --------- */
+
 .container {
   display: flex;
   margin: 32px auto;
@@ -73,11 +75,11 @@ body {
   border-top: 1px solid #eef0f3;
   display: flex;
   align-items: baseline;
-  padding: 48px;
+  padding: 40px;
 }
 
 .footer-message {
-  margin-left: 12px;
+  margin-left: 20px;
   font-size: 12px;
 }
 
@@ -85,7 +87,11 @@ body {
   border: hidden;
   background-color: #fff;
   position: relative;
-  left: 25%;
+  left: 19%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #8b8b8c;
+  letter-spacing: -1px;
 }
 
 .side-image {
