@@ -6,9 +6,20 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Modifiers */
 .uppercase {
   text-transform: uppercase;
 }
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/* --------- */
 
 .card {
   background-color: #fff;
@@ -18,8 +29,13 @@ body {
   padding: 16px;
 }
 
-.city-code-and-name {
+.city-code-and-name-box {
   display: flex;
+  align-items: center;
+}
+
+.city-code-and-name {
+  flex-basis: 33%;
 }
 
 .city-code {
@@ -31,7 +47,7 @@ body {
 }
 
 .hr-box {
-
+  flex-basis: 33%;
 }
 
 .code-separator {
@@ -41,8 +57,6 @@ body {
   width: 32px;
   height: 4px;
   border: hidden;
-  position: relative;
-  top: 25%;
 }
 
 .city-name {
