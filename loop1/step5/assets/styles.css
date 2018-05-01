@@ -23,9 +23,9 @@ body {
 
 .card {
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 4px;
   margin: 64px auto;
-  width: 20vw;
+  width: 25vw;
   padding: 32px;
 }
 
@@ -45,6 +45,8 @@ body {
   color: #3b8acf;
   margin: 0;
   flex-grow: 1;
+  font-size: 52px;
+  height: 64px;                 /* Squeezes the extra height and spaces right */
 }
 
 .hr-box {
