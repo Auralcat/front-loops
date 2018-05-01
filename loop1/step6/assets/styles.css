@@ -50,6 +50,8 @@ body {
   border-radius: 8px;
   border: 1px solid #eef0f3;
   padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .social-network-logo {
@@ -61,6 +63,8 @@ body {
   color: #8b8b8c;
   text-transform: uppercase;
   text-weight: bold;
+  position: relative;
+  left: 30%;
 }
 
 .google-item {
