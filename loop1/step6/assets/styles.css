@@ -22,12 +22,12 @@ body {
 
 .card {
   flex-basis: 60%;
-  padding: 60px;
+  flex-direction: column;
 }
 
 .member-box-and-selection {
-  height: 80%;
   text-align: left;
+  padding: 60px;
 }
 
 .main-text {
@@ -69,19 +69,23 @@ body {
   font-size: 12px;
 }
 
-.google-item {
-  list-style-image: url(img/googleplus.svg);
-}
-
 .card-footer {
   border-top: 1px solid #eef0f3;
   display: flex;
-  flex-direction: row;
+  align-items: baseline;
+  padding: 48px;
+}
+
+.footer-message {
+  margin-left: 12px;
+  font-size: 12px;
 }
 
 .sign-up-email-button {
   border: hidden;
   background-color: #fff;
+  position: relative;
+  left: 25%;
 }
 
 .side-image {
