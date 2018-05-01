@@ -3,6 +3,7 @@ body {
   margin: 4px;
   background-image: url(img/background.jpg);
   text-align: center;
+  font-family: Roboto, sans-serif;
 }
 
 .uppercase {
@@ -18,4 +19,18 @@ body {
 
 .city-code-and-name {
   display: flex;
+}
+
+.city-code {
+  font-family: Prompt, sans-serif;
+  font-weight: 900;
+  color: #3b8acf;
+}
+
+.code-separator {
+  color: #d3e6f4;
+}
+
+.city-name {
+  color: #abb5c2;
 }
