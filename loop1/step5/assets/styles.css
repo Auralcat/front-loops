@@ -38,7 +38,7 @@ body {
 .city-code-and-name-box {
   display: flex;
   align-items: center;
-  margin: 16px 0px;
+  margin-bottom: 16px;
 }
 
 .city-code-and-name {
