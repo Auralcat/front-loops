@@ -62,9 +62,10 @@ body {
 .social-network-text {
   color: #8b8b8c;
   text-transform: uppercase;
-  text-weight: bold;
+  font-weight: bold;
   position: relative;
   left: 30%;
+  font-size: 12px;
 }
 
 .google-item {
