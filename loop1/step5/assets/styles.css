@@ -1,3 +1,21 @@
+body {
+  height: 100%;
+  margin: 4px;
+  background-image: url(img/background.jpg);
+  text-align: center;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 96px 25%;
+  width: 50vw;
+}
+
+.city-code-and-name {
+  display: flex;
 }
