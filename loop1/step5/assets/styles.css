@@ -32,6 +32,7 @@ body {
 .city-code-and-name-box {
   display: flex;
   align-items: center;
+  margin: 16px 0px;
 }
 
 .city-code-and-name {
@@ -67,16 +68,19 @@ body {
 .flight-gate-seat-box {
   display: flex;
   width: 80%;
+  margin: 0;
 }
 
 .passenger-info-box {
   flex-direction: column;
-  margin-right: 40px;
+  width: 100%;
+  margin: 16px 0px;
 }
 
 .passenger-info-box-and-qr-code {
   display: flex;
   margin-top: 16px;
+  width: auto;
 }
 
 .key-and-info {
@@ -84,6 +88,7 @@ body {
   flex-direction: column;
   text-align: left;
   flex-basis: 33%;
+  flex-grow: 1;
 }
 
 .key {
