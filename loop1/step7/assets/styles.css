@@ -2,10 +2,12 @@ body {
   height: 100%;
   margin: 4px;
   background-color: #f2ce97;
+  text-align: center;
 }
 
 .container {
-
+  margin: 16px auto;
+  width: 50vw;
 }
 
 .title-and-profile {
