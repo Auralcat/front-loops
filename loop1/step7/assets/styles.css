@@ -3,17 +3,35 @@ body {
   margin: 4px;
   background-color: #f2ce97;
   text-align: center;
+  font-family: Roboto, sans-serif;
 }
 
 .container {
   margin: 76px auto;
   width: 76vw;
+  display: flex;
+  text-align: left;
 }
 
 .title-and-profile {
   background-color: #484956;
+  flex-basis: 40%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  margin-top: 4px;
 }
 
 .article-and-footer {
   background-color: #fff;
+  flex-direction: column;
+  flex-basis: 60%;
+  padding: 20px;
+}
+
+.capital-letter {
+  font-size: 24px;
+  font-weight: bold;
 }
