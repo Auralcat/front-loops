@@ -17,11 +17,31 @@ body {
   background-color: #484956;
   flex-basis: 40%;
   padding: 20px;
+  color: #fff;
+}
+
+.title-box {
+  font-size: 24px;
 }
 
 .title {
-  font-size: 32px;
-  margin-top: 4px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  margin: 0px;
+  font-weight: 400;
+}
+
+.highlight {
+  color: #e37b62;
+  background-color: #e37b62;
+  border: hidden;
+  height: 4px;
+  width: 44px;
+  position: relative;
+  right: 44%;
 }
 
 .article-and-footer {
