@@ -1,0 +1,17 @@
+body {
+  height: 100%;
+  margin: 4px;
+  background-color: #f2ce97;
+}
+
+.container {
+
+}
+
+.title-and-profile {
+  background-color: #484956;
+}
+
+.article-and-footer {
+  background-color: #fff;
+}
