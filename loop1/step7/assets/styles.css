@@ -95,11 +95,18 @@ body {
 
 time {
   margin: 0px 28px;
+  font-weight: 300;
+}
+
+b {
+  font-weight: bold;
 }
 
 .icon-and-counter {
   display: flex;
-  flex-basis: 13%;
+  flex-basis: 10%;
+  margin-left: 32%;
+  margin-right: 10%;
 }
 
 .icon {
