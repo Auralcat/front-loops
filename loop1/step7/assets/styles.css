@@ -105,14 +105,14 @@ b {
 .icon-and-counter {
   display: flex;
   flex-basis: 10%;
-  margin-left: 32%;
-  margin-right: 10%;
+  margin-left: 40%;
+  margin-right: 2%;
 }
 
-.icon {
-  flex-basis: 50%;
+.comment-icon {
+  margin-right: 8px;
 }
 
-.counter {
-  flex-basis: 50%;
+.comment-counter {
+  color: #aaaaad;
 }
