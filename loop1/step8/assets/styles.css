@@ -49,6 +49,7 @@ img {
   display: flex;
   align-items: center;
   padding: 16px;
+  color: #627a99;
 }
 
 .text-card {
@@ -78,6 +79,7 @@ img {
 .title {
   margin: 0px;
   font-size: 56px;
+  font-weight: 300;
 }
 
 .subtitle {
