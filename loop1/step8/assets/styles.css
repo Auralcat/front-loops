@@ -26,6 +26,7 @@ img {
   margin: 32px auto;
   width: 80vw;
   background-color: #fff;
+  box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .side-image {
@@ -44,4 +45,8 @@ img {
 
 .nav-item {
   list-style-type: none;
+}
+
+.content {
+  display: flex;
 }
