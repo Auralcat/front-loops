@@ -31,9 +31,9 @@ img {
 }
 
 .side-image {
-  flex-basis: 30%;
+  flex-basis: 40%;
   background-image: url(img/background.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 .text-card {
-  flex-basis: 70%;
+  flex-basis: 60%;
   padding: 20px;
   text-align: left;
 }
@@ -62,8 +62,17 @@ img {
   display: flex;
 }
 
-.title {
+.article-title {
   font-family: Playfair Display;
+}
+
+.title {
+  margin: 0px;
+  font-size: 56px;
+}
+
+.subtitle {
+
 }
 
 .text {
