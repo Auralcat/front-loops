@@ -4,3 +4,44 @@ body {
   text-align: center;
   background-color: #f8ebe9;
 }
+
+/* Tame those images! */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Modifiers */
+.link {
+  text-decoration: none;
+}
+
+.caption {
+  text-transform: uppercase;
+}
+/* --------- */
+
+.container {
+  display: flex;
+  margin: 32px auto;
+  width: 80vw;
+  background-color: #fff;
+}
+
+.side-image {
+  flex-basis: 40%;
+}
+
+.text-card {
+  flex-basis: 60%;
+  padding: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-item {
+  list-style-type: none;
+}
