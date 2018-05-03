@@ -72,6 +72,10 @@ img {
   display: flex;
 }
 
+.article-box {
+  padding: 20px;
+}
+
 .article-title {
   font-family: Playfair Display;
 }
