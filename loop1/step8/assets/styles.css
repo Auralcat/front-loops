@@ -30,7 +30,7 @@ img {
 /* --------- */
 
 .join-letters {
-  letter-spacing: -8px;
+  letter-spacing: -10px;
 }
 
 .container {
@@ -86,6 +86,7 @@ img {
 
 .article-box {
   padding: 20px;
+  margin-left: 40px;
 }
 
 .article-title {
@@ -94,7 +95,7 @@ img {
 
 .title {
   margin: 0px;
-  font-size: 56px;
+  font-size: 68px;
   font-weight: 300;
 }
 
@@ -110,7 +111,7 @@ img {
 }
 
 .text {
-  margin: 0px 28px;
+  margin: 0px 44px;
   font-weight: 300;
   line-height: 2em;
 }
