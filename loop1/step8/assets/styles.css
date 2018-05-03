@@ -56,6 +56,10 @@ img {
   margin-top: 20px;
 }
 
+.back-text {
+  color: #6f8eb4;
+}
+
 .text-card {
   flex-basis: 60%;
   padding: 20px;
