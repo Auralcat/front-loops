@@ -115,6 +115,13 @@ img {
 
 }
 
+.photo-subtitle {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
 .photo-and-button {
   background-image: url(img/preview.jpg);
   background-repeat: no-repeat;
