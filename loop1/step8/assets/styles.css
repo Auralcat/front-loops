@@ -22,6 +22,10 @@ img {
 }
 /* --------- */
 
+.join-letters {
+  letter-spacing: -8px;
+}
+
 .container {
   display: flex;
   margin: 32px auto;
@@ -73,6 +77,7 @@ img {
 
 .subtitle {
   font-variant: sub;
+  margin-top: 0px;
 }
 
 .text {
