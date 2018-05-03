@@ -3,6 +3,7 @@ body {
   margin: 4px;
   text-align: center;
   background-color: #f8ebe9;
+  font-family: Roboto, sans-serif;
 }
 
 /* Tame those images! */
@@ -45,6 +46,7 @@ img {
 .text-card {
   flex-basis: 70%;
   padding: 20px;
+  text-align: left;
 }
 
 .nav-bar {
@@ -60,16 +62,22 @@ img {
   display: flex;
 }
 
+.title {
+  font-family: Playfair Display;
+}
+
+.text {
+  margin: 0px 28px;
+}
+
 .photo-and-caption {
-  text-align: left;
+
 }
 
 .photo-and-button {
   background-image: url(img/preview.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 20vw;
-  width: 20vw;
   display: flex;
   height: 156px;
   width: 240px;
