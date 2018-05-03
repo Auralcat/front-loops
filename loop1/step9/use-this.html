@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+    </head>
+    <style>
+     img {
+         max-height: 100%;
+         max-width: 100%;
+     }
+
+     .list-container {
+         color: red;
+     }
+
+     .style-me {
+         list-style-image: url("http://www.moonkitty.net/avatars/new-sailor-moon-images/new-sailor-moon-image-icon36.jpg");
+     }
+     .style-me:nth-child(2) {
+         color: green;
+         list-style-image: url("https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Ffc00.deviantart.net%2Ffs70%2Ff%2F2013%2F148%2F7%2F0%2Fsailor_moon_crystal_brooch_icon_by_meinona-d66vo9z.gif&u=http://orig03.deviantart.net/ec57/f/2013/148/7/0/sailor_moon_crystal_brooch_icon_by_meinona-d66vo9z.gif");
+     }
+    </style>
+    <body>
+        <header>
+            <h1>Creating different listing images</h1>
+            <p>I want to style the list items with different indicator images.</p>
+        </header>
+        <main>
+            <ul class="list-container">
+                <li class="style-me">Item 1</li>
+                <li class="style-me">Item 2</li>
+                <li class="style-me">Item 3</li>
+                <li class="style-me">Item 4</li>
+            </ul>
+        </main>
+    </body>
+</html>
