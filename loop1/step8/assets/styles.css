@@ -50,3 +50,12 @@ img {
 .content {
   display: flex;
 }
+
+.play-box {
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 8px;
+  position: absolute;
+  left: 52%;
+  bottom: 50%;
+}
