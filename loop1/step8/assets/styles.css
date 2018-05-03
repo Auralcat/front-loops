@@ -99,6 +99,8 @@ img {
 
 .text {
   margin: 0px 28px;
+  font-weight: 300;
+  line-height: 2em;
 }
 
 .photo-and-caption {
