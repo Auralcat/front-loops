@@ -90,6 +90,11 @@ img {
   font-variant: sub;
   margin-top: 0px;
   margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.author-name {
+  font-weight: bold;
 }
 
 .text {
