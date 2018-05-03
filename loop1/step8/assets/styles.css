@@ -51,6 +51,10 @@ img {
   display: flex;
 }
 
+.photo-and-button {
+  text-align: left;
+}
+
 .play-box {
   border-radius: 100%;
   background-color: #fff;
@@ -58,4 +62,9 @@ img {
   position: absolute;
   left: 52%;
   bottom: 50%;
+}
+
+.view-more-box {
+  display: flex;
+  align-items: center;
 }
