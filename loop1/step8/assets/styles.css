@@ -136,7 +136,10 @@ img {
     margin-left: 0px;
 }
 
-.photo {}
+.photo {
+    /* That's all it takes to add that hand to the cursor! */
+    cursor: pointer;
+}
 
 .photo-and-button {
     display: flex;
