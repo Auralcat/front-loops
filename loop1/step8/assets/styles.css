@@ -20,6 +20,10 @@ img {
 .caption {
   text-transform: uppercase;
 }
+
+.selected {
+  color: #333333;
+}
 /* --------- */
 
 .join-letters {
@@ -60,6 +64,7 @@ img {
 
 .nav-item {
   list-style-type: none;
+  color: #ababab;
 }
 
 .content {
@@ -78,6 +83,7 @@ img {
 .subtitle {
   font-variant: sub;
   margin-top: 0px;
+  margin-bottom: 32px;
 }
 
 .text {
