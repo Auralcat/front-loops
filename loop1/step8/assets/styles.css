@@ -147,8 +147,14 @@ img {
 .play-box {
   border-radius: 100%;
   background-color: #fff;
-  padding: 8px;
   margin: auto;
+  height: 40px;
+  width: 40px;
+}
+
+.play-button {
+  margin-left: 6px;
+  margin-top: 6px;
 }
 
 .view-more-box {
