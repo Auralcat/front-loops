@@ -19,6 +19,9 @@ img {
 
 .caption {
   text-transform: uppercase;
+  color: #aaa;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .selected {
@@ -50,6 +53,7 @@ img {
   align-items: center;
   padding: 16px;
   color: #627a99;
+  margin-top: 20px;
 }
 
 .text-card {
@@ -66,6 +70,10 @@ img {
 .nav-item {
   list-style-type: none;
   color: #ababab;
+}
+
+.link {
+  margin: 0px 16px;
 }
 
 .content {
