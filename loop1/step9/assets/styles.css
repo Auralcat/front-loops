@@ -18,6 +18,13 @@ p {
 }
 /* ---------------- */
 
+/* Modifiers */
+
+.card-selection-section .box--selected {
+  border: 2px solid #8793c6;
+}
+
+/* --------- */
 .container {
   display: flex;
   margin: 64px auto;
