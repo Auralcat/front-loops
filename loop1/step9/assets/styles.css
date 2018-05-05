@@ -105,6 +105,7 @@ p {
 .current-balance-header {
   align-items: center;
   display: flex;
+  margin-bottom: 36px;
 }
 
 .current-balance {
