@@ -24,7 +24,7 @@ p {
   border: 2px solid #8793c6;
 }
 
-.item--income {
+.item-description .item--income {
   color: #8ace5e;
 }
 
@@ -75,7 +75,7 @@ p {
   background-color: #fff;
   flex-basis: 60%;
   overflow-y: auto;
-  padding: 20;
+  padding: 20px;
 }
 
 .separator {
@@ -125,6 +125,6 @@ p {
 
 .currency-cents {
   bottom: 6px;
-  font-size: 10;
+  font-size: 10px;
   position: relative;
 }
