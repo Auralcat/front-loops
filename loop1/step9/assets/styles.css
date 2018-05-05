@@ -1,179 +1,182 @@
 /* My custom styles */
 
 body {
-  background-color: #f7cd75;
-  font-family: Roboto, sans-serif;
-  height: 100%;
-  margin: 4px;
-  text-align: center;
+    background-color: #f7cd75;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 4px;
+    text-align: center;
 }
 
 img {
-  max-height: 100%;
-  max-width: 100%
+    max-height: 100%;
+    max-width: 100%
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
+
 /* ---------------- */
 
 /* Modifiers */
 
 .card-selection-section .box--selected {
-  border: 2px solid #8793c6;
+    border: 2px solid #8793c6;
 }
 
 .item-description .item--income {
-  color: #8ace5e;
+    color: #8ace5e;
 }
 
 .currency-box .balance-total {
-  color: #000;
-  font-size: 24px;
+    color: #000;
+    font-size: 24px;
 }
 
 .balance-total .currency-cents {
-  bottom: 10px;
-  font-size: 14px;
-  position: relative;
+    bottom: 10px;
+    font-size: 14px;
+    position: relative;
 }
 
 /* --------- */
 
 .container {
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
-  display: flex;
-  height: 460px;
-  margin: 64px auto;
-  overflow-y: hidden;
-  text-align: left;
-  width: 80vw;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    height: 460px;
+    margin: 64px auto;
+    overflow-y: hidden;
+    text-align: left;
+    width: 80vw;
 }
 
 .card-selection-section {
-  background-color: #f2f2f2;
-  flex-basis: 40%;
-  overflow-y: auto;
-  padding: 48px;
+    background-color: #f2f2f2;
+    flex-basis: 40%;
+    overflow-y: auto;
+    padding: 48px;
 }
 
 .wallet-text-and-button {
-  align-items: center;
-  display: flex;
+    align-items: center;
+    display: flex;
 }
 
 .wallet {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .plus-button {
-  margin-left: auto;            /* No-frills quick alignment! */
+    margin-left: auto;
+    /* No-frills quick alignment! */
 }
 
 .card-description {
-  background-color: #fff;
-  border: 1px solid #dedede;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 32px 0;
-  padding: 12px;
-  transition: all .2s ease-out;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 32px 0;
+    padding: 12px;
+    transition: all .2s ease-out;
 }
 
 .card-description:hover {
-  border: 2px solid #8793c6;
-  transition: all .2s ease-out;
+    border: 2px solid #8793c6;
+    transition: all .2s ease-out;
 }
 
 .card-digits-and-exp-date {
-  color: #727272;
-  font-weight: 500;
+    color: #727272;
+    font-weight: 500;
 }
 
 .exp-date {
-  font-size: 14px;
-  margin-top: 4px;
+    font-size: 14px;
+    margin-top: 4px;
 }
 
 .card-photo {
-  height: 100%;
-  margin-left: -5px;           /* Compensate white space in card */
-  width: 30%;
+    height: 100%;
+    margin-left: -5px;
+    /* Compensate white space in card */
+    width: 30%;
 }
 
 .balance-and-details-section {
-  background-color: #fff;
-  flex-basis: 60%;
-  overflow-y: auto;
-  padding: 48px;
+    background-color: #fff;
+    flex-basis: 60%;
+    overflow-y: auto;
+    padding: 48px;
 }
 
 .current-balance-header {
-  align-items: center;
-  display: flex;
-  margin-bottom: 36px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 36px;
 }
 
 .current-balance {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .separator {
-  background-color: #dedede;
-  border-style: hidden;
-  color: #dedede;
-  height: 1px;
-  width: 100%;
+    background-color: #dedede;
+    border-style: hidden;
+    color: #dedede;
+    height: 1px;
+    width: 100%;
 }
 
 .item-description {
-  align-items: center;
-  display: flex;
-  margin: 36px 0;
+    align-items: center;
+    display: flex;
+    margin: 36px 0;
 }
 
 .indicator-box {
-  border: 1px solid #dfdfdf;
-  border-radius: 100%;
-  display: inline-flex;
-  padding: 4px;
+    border: 1px solid #dfdfdf;
+    border-radius: 100%;
+    display: inline-flex;
+    padding: 4px;
 }
 
 .indicator-sign {
-  height: 100%;
-  width: 13px;
+    height: 100%;
+    width: 13px;
 }
 
 .item-name-and-purchase-details {
-  margin: auto;
-  width: 21vw;
+    margin: auto;
+    width: 21vw;
 
 }
 
 .item-name {
-  font-size: 18px;
-  font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .purchase-details {
-  color: #c6c6c6;
-  font-size: 12px;
+    color: #c6c6c6;
+    font-size: 12px;
 }
 
 .currency-box {
-  margin-left: auto;
-  text-align: right;
+    margin-left: auto;
+    text-align: right;
 }
 
 .currency-digits {
-  color: #8898c6;
-  font-weight: 500;
+    color: #8898c6;
+    font-weight: 500;
 }
 
 .currency-cents {
-  bottom: 6px;
-  font-size: 10px;
-  position: relative;
+    bottom: 6px;
+    font-size: 10px;
+    position: relative;
 }
