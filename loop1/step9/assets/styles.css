@@ -29,8 +29,14 @@ p {
 }
 
 .currency-box .balance-total {
-  height: 2em;
   color: #000;
+  font-size: 24px;
+}
+
+.balance-total .currency-cents {
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
 }
 
 /* --------- */
@@ -97,8 +103,8 @@ p {
 }
 
 .current-balance-header {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .current-balance {
@@ -150,7 +156,6 @@ p {
 .currency-box {
   margin-left: auto;
   text-align: right;
-  width: 4vw;
 }
 
 .currency-digits {
