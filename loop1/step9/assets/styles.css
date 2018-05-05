@@ -106,7 +106,7 @@ p {
 
 .item-name-and-purchase-details {
   margin: auto;
-  width: 28em;
+  width: 28vw;
 
 }
 
@@ -122,7 +122,7 @@ p {
 
 .currency-box {
   text-align: right;
-  width: 4em;
+  width: 8vw;
 }
 
 .currency-digits {
