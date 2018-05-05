@@ -1,0 +1,15 @@
+/* My custom styles */
+
+body {
+  height: 100%;
+  margin: 4px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%
+}
+
+/* ---------------- */
