@@ -1,0 +1,122 @@
+body {
+  height: 100%;
+  margin: 4px;
+  text-align: center;
+  background-color: #f8ebe9;
+  font-family: Roboto, sans-serif;
+}
+
+/* Tame those images! */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Modifiers */
+.link {
+  text-decoration: none;
+}
+
+.caption {
+  text-transform: uppercase;
+}
+
+.selected {
+  color: #333333;
+}
+/* --------- */
+
+.join-letters {
+  letter-spacing: -8px;
+}
+
+.container {
+  display: flex;
+  margin: 32px auto;
+  width: 80vw;
+  background-color: #fff;
+  box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.side-image {
+  flex-basis: 40%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  color: #627a99;
+}
+
+.text-card {
+  flex-basis: 60%;
+  padding: 20px;
+  text-align: left;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-item {
+  list-style-type: none;
+  color: #ababab;
+}
+
+.content {
+  display: flex;
+}
+
+.article-box {
+  padding: 20px;
+}
+
+.article-title {
+  font-family: Playfair Display;
+}
+
+.title {
+  margin: 0px;
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-variant: sub;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.text {
+  margin: 0px 28px;
+}
+
+.photo-and-caption {
+
+}
+
+.photo-and-button {
+  background-image: url(img/preview.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 156px;
+  width: 240px;
+}
+
+.play-box {
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 8px;
+  margin: auto;
+}
+
+.view-more-box {
+  display: flex;
+  align-items: center;
+}
