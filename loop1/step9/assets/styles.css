@@ -32,8 +32,8 @@ p {
 
 .container {
   display: flex;
+  height: 480;
   margin: 64px auto;
-  height: 480px;
   overflow-y: hidden;
   text-align: left;
   width: 80vw;
@@ -75,7 +75,7 @@ p {
   background-color: #fff;
   flex-basis: 60%;
   overflow-y: auto;
-  padding: 20px;
+  padding: 20;
 }
 
 .separator {
@@ -89,6 +89,7 @@ p {
 .item-description {
   align-items: center;
   display: flex;
+  margin: 36px 0;
 }
 
 .indicator-box {
@@ -123,7 +124,7 @@ p {
 }
 
 .currency-cents {
-  font-size: 10px;
-  position: relative;
   bottom: 6px;
+  font-size: 10;
+  position: relative;
 }
