@@ -34,18 +34,18 @@ p {
 }
 
 .balance-total .currency-cents {
+  bottom: 10px;
   font-size: 14px;
   position: relative;
-  bottom: 10px;
 }
 
 /* --------- */
 
 .container {
-  border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
   display: flex;
-  height: 480;
+  height: 460px;
   margin: 64px auto;
   overflow-y: hidden;
   text-align: left;
