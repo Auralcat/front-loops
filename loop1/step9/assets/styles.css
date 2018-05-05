@@ -79,6 +79,11 @@ p {
   padding: 12px;
 }
 
+.card-description:hover {
+  border: 2px solid #8793c6;
+  transition: 0.3s;
+}
+
 .card-digits-and-exp-date {
   color: #727272;
   font-weight: 500;
