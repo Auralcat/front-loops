@@ -13,6 +13,9 @@ img {
   max-width: 100%
 }
 
+p {
+  margin: 0;
+}
 /* ---------------- */
 
 .container {
@@ -32,10 +35,22 @@ img {
   background-color: #fff;
   border: 1px solid #dedede;
   border-radius: 4px;
+  padding: 12px;
+}
+
+.card-digits-and-exp-date {
+  color: #727272;
+  font-weight: 500;
+}
+
+.exp-date {
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 .card-photo {
   height: 100%;
+  margin-left: -5px;           /* Compensate white space in card */
   width: 30%;
 }
 
