@@ -80,3 +80,34 @@ p {
   height: 1px;
   width: 100%;
 }
+
+.item-description {
+  align-items: center;
+  display: flex;
+}
+
+.indicator-box {
+  border: 1px solid #dfdfdf;
+  border-radius: 100%;
+  display: inline-flex;
+  padding: 4px;
+}
+
+.indicator-sign {
+  height: 100%;
+  width: 13px;
+}
+
+.item-name-and-purchase-details {
+  margin: auto;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.purchase-details {
+  color: #c6c6c6;
+  font-size: 12px;
+}
