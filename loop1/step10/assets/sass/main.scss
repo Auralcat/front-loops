@@ -1,1 +1,27 @@
 /* Touching the SCSS file */
+
+header {
+    display: flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-items: end;
+}
+
+li {
+    margin: 0 12px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
