@@ -1,0 +1,35 @@
+/* Touching the SCSS file */
+
+header {
+    display: flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-items: end;
+}
+
+li {
+    margin: 0 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.bottom-section {
+    background: url(../img/preview.jpg)
+}
