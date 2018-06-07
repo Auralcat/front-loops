@@ -14,9 +14,13 @@ li {
   margin: 0 12px; }
 
 li a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s; }
 
 li a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #000;
+  transition: 0.3s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */
