@@ -10,6 +10,14 @@ h1 {
     font-size: 44px;
     font-weight: 600;
 }
+/* Helpers */
+.white {
+    color: #fff;
+}
+
+.gray {
+    color: #999;
+}
 
 /* Push top content to the right */
 header, .hero-unit {
@@ -89,12 +97,21 @@ li a:hover {
 }
 
 /* Create a mixin with this. */
-.side-stripe {
+.side-stripe-gray {
     border-left: 2px solid #999;
     p {
         margin-left: 3rem;
         width: 38rem;
         color: #999
+    }
+}
+
+.side-stripe-white {
+    border-left: 2px solid #fff;
+    p {
+        margin-left: 3rem;
+        width: 38rem;
+        color: #fff
     }
 }
 
