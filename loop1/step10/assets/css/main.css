@@ -8,6 +8,10 @@ h1 {
   font-size: 44px;
   font-weight: 600; }
 
+/* Push top content to the right */
+header, .hero-unit {
+  margin-left: 16rem; }
+
 header {
   display: flex;
   align-items: center;
@@ -34,10 +38,15 @@ li {
 li a {
   text-decoration: none;
   transition: 0.2s; }
-  li a hover {
-    text-decoration: underline;
-    color: #595959;
-    transition: 0.2s ease-in-out; }
+
+li a:hover {
+  text-decoration: underline;
+  color: #595959;
+  transition: 0.2s ease-in-out; }
+
+.hero-unit {
+  position: relative;
+  top: 16%; }
 
 .button-custom-primary {
   color: #fff;
@@ -54,10 +63,10 @@ li a {
 .top-section {
   border-bottom: 1px solid #e0dfdf;
   background: url(../img/watches.jpg);
-  background-position-x: 55rem;
-  background-size: contain;
+  background-position-x: 76rem;
+  background-size: 48rem;
   background-repeat: no-repeat;
-  height: 800px; }
+  height: 46rem; }
 
 /* Create a mixin with this. */
 .side-stripe {
