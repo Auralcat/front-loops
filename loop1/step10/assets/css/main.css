@@ -1,6 +1,11 @@
+body {
+  margin: 0; }
+
 header {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
 
 .logo {
   width: 2.5rem; }
