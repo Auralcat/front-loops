@@ -56,11 +56,22 @@ li a {
   background-repeat: no-repeat;
   height: 800px; }
 
+/* Create a mixin with this. */
 .side-stripe {
   border-left: 2px solid #999; }
   .side-stripe p {
-    margin-left: 4rem;
-    width: 38rem; }
+    margin-left: 3rem;
+    width: 38rem;
+    color: #999; }
+
+.middle-section {
+  margin: 0 20vw; }
+
+.blurb-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 4rem; }
 
 .img-preview {
   display: inline-block; }
