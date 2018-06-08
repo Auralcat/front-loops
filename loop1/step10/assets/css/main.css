@@ -1,6 +1,10 @@
 /* Touching the SCSS file */
 header {
-  display: flex; }
+  display: flex;
+  align-items: center; }
+
+.logo {
+  width: 2.5rem; }
 
 nav {
   margin-left: auto; }
@@ -8,20 +12,22 @@ nav {
 ul {
   list-style-type: none;
   display: flex;
-  justify-items: end; }
+  margin-bottom: 0; }
+
+li, li a {
+  color: #999; }
 
 li {
   margin: 0 12px; }
 
 li a {
   text-decoration: none;
-  color: #000;
-  transition: 0.3s; }
+  transition: 0.2s; }
 
 li a:hover {
   text-decoration: underline;
-  color: #000;
-  transition: 0.3s ease-in-out; }
+  color: #595959;
+  transition: 0.2s ease-in-out; }
 
 .bottom-section {
   background: url(../img/preview.jpg); }
