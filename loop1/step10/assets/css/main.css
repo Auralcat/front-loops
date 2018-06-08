@@ -23,11 +23,10 @@ li {
 li a {
   text-decoration: none;
   transition: 0.2s; }
-
-li a:hover {
-  text-decoration: underline;
-  color: #595959;
-  transition: 0.2s ease-in-out; }
+  li a hover {
+    text-decoration: underline;
+    color: #595959;
+    transition: 0.2s ease-in-out; }
 
 .button-custom-primary {
   color: #fff;

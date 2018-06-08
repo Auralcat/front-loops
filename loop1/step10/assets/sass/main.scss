@@ -30,12 +30,12 @@ li {
 li a {
     text-decoration: none;
     transition: 0.2s;
-}
 
-li a:hover {
-    text-decoration: underline;
-    color: darken(#999, 25%);
-    transition: 0.2s ease-in-out;
+    hover {
+        text-decoration: underline;
+        color: darken(#999, 25%);
+        transition: 0.2s ease-in-out;
+    }
 }
 
 .button-custom-primary {
@@ -50,7 +50,6 @@ li a:hover {
     }
 }
 
-
 .bottom-section {
-    background: url(../img/preview.jpg)
+    background: url(../img/preview.jpg);
 }
