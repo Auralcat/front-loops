@@ -29,6 +29,15 @@ li a:hover {
   color: #595959;
   transition: 0.2s ease-in-out; }
 
+.button-custom-primary {
+  color: #fff;
+  background-color: #ea625c;
+  letter-spacing: -1px;
+  border: none;
+  border-radius: 0; }
+  .button-custom-primary hover {
+    color: #c6221a; }
+
 .bottom-section {
   background: url(../img/preview.jpg); }
 
