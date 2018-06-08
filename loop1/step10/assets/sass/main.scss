@@ -50,6 +50,13 @@ li a {
     }
 }
 
+.side-image {
+    background: url(../img/watches.jpg);
+    background-position-x: 55rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+}
 .bottom-section {
     background: url(../img/runners.jpg);
     background-size: cover;
