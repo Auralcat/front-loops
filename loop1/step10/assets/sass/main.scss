@@ -81,9 +81,10 @@ ul {
     list-style-type: none;
     display: flex;
     margin-bottom: 0;
+    align-items: center;
 }
 
-li, li a {
+li, li a, .search-box {
     color: #999;
 }
 
@@ -94,13 +95,30 @@ li {
 li a {
     text-decoration: none;
     transition: 0.2s;
-
 }
 
 li a:hover {
     text-decoration: underline;
     color: darken(#999, 25%);
     transition: 0.2s ease-in-out;
+}
+
+/* Attr overriding seems to be more effective! */
+input[type="text"] {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    transition: 0.2s;
+}
+
+input[type="text"]:hover {
+    color: darken(#999, 25%);
+}
+
+input[type="text"]:focus {
+    color: #000;
+    border: 0;
 }
 
 .hero-unit {
