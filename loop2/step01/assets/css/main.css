@@ -1,8 +1,16 @@
-nav {
+nav > ul {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 80rem;
+  margin-left: auto; }
 
-ul {
-  list-style-type: none; }
+nav > ul > li {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
