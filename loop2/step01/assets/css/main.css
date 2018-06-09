@@ -8,11 +8,11 @@ nav > ul {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
-  width: 80rem;
+  /* width: 120rem; */
   margin-left: 22rem; }
 
 .nav-item {
-  font-size: 36px;
+  font-size: 52px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
