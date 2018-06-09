@@ -9,7 +9,7 @@ nav > ul {
   list-style-type: none;
   justify-content: space-between;
   width: 80rem;
-  margin-left: auto; }
+  margin-left: 22rem; }
 
 .nav-item {
   font-size: 36px;
@@ -27,7 +27,11 @@ nav > ul {
   font-size: 12px;
   width: 54rem;
   font-weight: 500;
-  margin-left: 20.5rem; }
+  margin-left: 22rem; }
+
+.squares-and-selectors {
+  display: flex;
+  justify-content: center; }
 
 .square-container {
   display: flex;
@@ -49,7 +53,11 @@ nav > ul {
 .arrow-container {
   width: 100px;
   height: 100px;
-  background-color: #ecb9b8; }
+  background-color: #ecb9b8;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .arrow-container:hover {
   opacity: 0.8; }
