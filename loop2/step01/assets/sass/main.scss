@@ -3,10 +3,6 @@ body {
     margin: 4px;
 }
 
-nav {
-
-}
-
 nav > ul {
     display: flex;
     align-items: center;
@@ -28,4 +24,12 @@ nav > ul {
 
 .nav-item:hover, .nav-item-active {
     opacity: 1;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 12px;
+    width: 54rem;
+    font-weight: 500;
+    margin-left: 20.5rem;
 }
