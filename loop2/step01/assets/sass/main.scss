@@ -78,6 +78,19 @@ nav > ul {
     font-size: 32px;
     font-weight: 500;
 }
+
+.start-button {
+    color: #fff;
+    background-color: #131313;
+    text-transform: uppercase;
+    position: relative;
+    left: 8%;
+    top: 63%;
+    padding: 1.5rem 10rem;
+    /* Override Skeleton's button height */
+    height: 5rem;
+}
+
 .arrow-container {
     width: 100px;
     height: 100px;
