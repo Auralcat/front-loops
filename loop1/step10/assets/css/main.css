@@ -78,12 +78,13 @@ li {
 
 li a {
   text-decoration: none;
-  transition: 0.2s; }
+  transition: 0.2s;
+  padding-bottom: 12px; }
 
 li a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #999;
   color: #595959;
-  transition: 0.2s ease-in-out; }
+  transition: 0.2s; }
 
 /* Attr overriding seems to be more effective! */
 input[type="text"] {
