@@ -11,6 +11,7 @@ nav > ul {
     justify-content: space-between;
     /* width: 120rem; */
     margin-left: 22rem;
+    margin-bottom: 0;
 }
 
 .nav-item {
@@ -28,8 +29,8 @@ nav > ul {
 
 .subtitle {
     color: #fff;
-    font-size: 12px;
-    width: 54rem;
+    font-size: 16px;
+    width: 71rem;
     font-weight: 500;
     /* There's a small offset */
     margin-left: calc(22rem + 2px);
@@ -89,6 +90,7 @@ nav > ul {
     padding: 1.5rem 10rem;
     /* Override Skeleton's button height */
     height: 5rem;
+    border: none;
 }
 
 .arrow-container {
