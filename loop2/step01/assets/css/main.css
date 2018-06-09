@@ -27,7 +27,8 @@ nav > ul {
   font-size: 12px;
   width: 54rem;
   font-weight: 500;
-  margin-left: 22rem; }
+  /* There's a small offset */
+  margin-left: calc(22rem + 2px); }
 
 .squares-and-selectors {
   display: flex;
