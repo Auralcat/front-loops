@@ -24,6 +24,31 @@ h1 {
     width: 4px;
     height: 4px;
 }
+
+.learn-more-container {
+    display: flex;
+    align-items: center;
+    color: #ea625c;
+    width: 124px;
+    justify-content: space-between;
+}
+
+.learn-more-line {
+    height: 2px;
+    width: 32px;
+    background-color: #ea625c;
+    transition: 0.2s;
+}
+
+.learn-more-line:hover {
+    width: 42px;
+}
+
+.learn-more-text {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+/* ----------------------------- */
 /* Push top content to the right */
 header, .hero-unit {
     margin-left: 16rem;
