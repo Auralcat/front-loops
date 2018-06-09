@@ -33,3 +33,35 @@ nav > ul {
     font-weight: 500;
     margin-left: 20.5rem;
 }
+
+.square-container {
+    display: flex;
+    align-items: center;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+}
+
+.timer-square {
+    background-color: #3e3c3d;
+}
+
+.temperature-square {
+    background-color: #353334;
+}
+
+.load-square {
+    background-color: #201e1f;
+}
+
+.arrow-container {
+    width: 100px;
+    height: 100px;
+    background-color: #ecb9b8;
+}
+
+.arrow-container:hover {
+    opacity: 0.8;
+}
