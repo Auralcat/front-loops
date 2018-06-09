@@ -104,7 +104,7 @@ input[type="text"]:hover {
 input[type="text"]:focus {
   color: #000;
   border: 0;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #595959;
   margin-top: 4px; }
 
 .hero-unit {
@@ -146,11 +146,8 @@ input[type="text"]:focus {
     width: 38rem;
     color: #fff; }
 
-.middle-section {
-  margin: 0 16rem 4rem 16rem; }
-
 .just-texts {
-  margin-bottom: 4rem; }
+  margin: 4rem 16rem; }
 
 .blurb-title {
   font-size: 12px;
@@ -160,11 +157,15 @@ input[type="text"]:focus {
 
 .blurb-and-preview {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  height: 60rem;
+  flex-basis: 30rem; }
+
+.title-and-para {
+  margin-right: 10rem; }
 
 .img-preview {
-  width: 100%;
-  height: 60rem; }
+  height: 50rem; }
 
 .bottom-section {
   background: url(../img/runners.jpg);
@@ -176,7 +177,7 @@ input[type="text"]:focus {
   position: relative;
   top: 38%;
   left: 50%;
-  width: 60rem;
+  width: 50rem;
   color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
