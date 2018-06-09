@@ -33,7 +33,7 @@ h1 {
   background-color: #ea625c;
   transition: 0.2s; }
 
-.learn-more-line:hover {
+.line-extend {
   width: 42px; }
 
 .learn-more-text {
