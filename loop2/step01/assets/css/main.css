@@ -1,8 +1,10 @@
+/* Vars */
 body {
   background-color: #de8a89;
+  color: #fff;
   margin: 4px;
-  width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 nav > ul {
   display: flex;
@@ -17,7 +19,6 @@ nav > ul {
 .nav-item {
   font-size: 52px;
   text-transform: uppercase;
-  color: #fff;
   font-weight: 700;
   opacity: 0.8;
   transition: 0.2s; }
@@ -26,7 +27,6 @@ nav > ul {
   opacity: 1; }
 
 .subtitle {
-  color: #fff;
   font-size: 16px;
   width: 71rem;
   font-weight: 500;
@@ -64,12 +64,10 @@ nav > ul {
   font-size: 18px; }
 
 .var-display {
-  color: #fff;
   font-size: 32px;
   font-weight: 500; }
 
 .start-button {
-  color: #fff;
   background-color: #131313;
   text-transform: uppercase;
   position: relative;
@@ -96,6 +94,9 @@ nav > ul {
 
 .arrow-container:hover {
   opacity: 0.8; }
+
+.arrow {
+  color: #000; }
 
 .arrow-right {
   transform: rotate(90deg); }
