@@ -63,4 +63,10 @@ nav > ul {
 .arrow-container:hover {
   opacity: 0.8; }
 
+.arrow-right {
+  transform: rotate(90deg); }
+
+.arrow-left {
+  transform: rotate(-90deg); }
+
 /*# sourceMappingURL=main.css.map */
