@@ -10,7 +10,7 @@ nav > ul {
     list-style-type: none;
     justify-content: space-between;
     /* width: 120rem; */
-    margin-left: 22rem;
+    margin-left: calc(22rem + 4px);
     margin-bottom: 0;
 }
 
@@ -33,7 +33,7 @@ nav > ul {
     width: 71rem;
     font-weight: 500;
     /* There's a small offset */
-    margin-left: calc(22rem + 2px);
+    margin-left: calc(22rem + 8px);
 }
 
 .squares-and-selectors {
@@ -91,6 +91,12 @@ nav > ul {
     /* Override Skeleton's button height */
     height: 5rem;
     border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.start-button:hover {
+    color: #fff;
+    top: 62%;
 }
 
 .arrow-container {
