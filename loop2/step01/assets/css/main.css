@@ -1,6 +1,8 @@
 body {
   background-color: #de8a89;
-  margin: 4px; }
+  margin: 4px;
+  width: 100%;
+  overflow: hidden; }
 
 nav > ul {
   display: flex;
@@ -8,7 +10,7 @@ nav > ul {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
-  /* width: 120rem; */
+  width: 120rem;
   margin-left: calc(22rem + 4px);
   margin-bottom: 0; }
 
