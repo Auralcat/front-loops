@@ -107,14 +107,18 @@ li a:hover {
 /* Attr overriding seems to be more effective! */
 input[type="text"] {
     border: 0;
+    border-bottom: 2px solid #bbb;
     border-radius: 0;
-    padding: 0;
-    margin: 0;
+    padding: 0 0 4px 0;
+    margin: 6px 0 0 0;
     transition: 0.2s;
+    font-size: 16px;
+    width: 19rem;
 }
 
 input[type="text"]:hover {
     color: darken(#999, 25%);
+    border-bottom-color: darken(#bbb, 25%);
 }
 
 input[type="text"]:focus {
