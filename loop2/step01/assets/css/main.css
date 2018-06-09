@@ -1,3 +1,7 @@
+body {
+  background-color: #de8a89;
+  margin: 4px; }
+
 nav > ul {
   display: flex;
   align-items: center;
@@ -7,10 +11,15 @@ nav > ul {
   width: 80rem;
   margin-left: auto; }
 
-nav > ul > li {
+.nav-item {
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  opacity: 0.8;
+  transition: 0.2s; }
+
+.nav-item:hover, .nav-item-active {
+  opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
