@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 2 - Step 1</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <!-- Add Skeleton and Normalize before custom CSS -->
+  <link rel="stylesheet" href="./assets/css/skeleton.css" />
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 <body>
@@ -17,5 +20,48 @@
 
     Ready. Set. Go!
   -->
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item nav-item-active">synthetic</li>
+                <li class="nav-item">wool</li>
+                <li class="nav-item">denim</li>
+                <li class="nav-item">silk</li>
+                <li class="nav-item">linen</li>
+            </ul>
+        </nav>
+        <p class="subtitle">Loads should be under 8 pounds. It is recommended using neutral detergent to prevent damage to the cloth and to improve the washing results.</p>
+        <main>
+            <section class="squares-and-selectors">
+                <div class="arrow-container">
+                    <span class="arrow">&larr</span>
+                </div>
+                <div class="square-container">
+                    <div class="square">
+                        <div class="var-block">
+                            <div class="var-text">Timer</div>
+                            <div class="var-display">45 min</div>
+                        </div>
+                        <button class="start-button">start</button>
+                    </div>
+                    <div class="square">
+                        <div class="var-block">
+                            <div class="var-text">Temperature</div>
+                            <div class="var-display">Cold</div>
+                        </div>
+                    </div>
+                    <div class="square">
+                        <div class="var-block">
+                            <div class="var-text">Load</div>
+                            <div class="var-display">Medium</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-container">
+                    <span class="arrow arrow-invert">&larr</span>
+                </div>
+            </section>
+        </main>
+    </header>
 </body>
 </html>
