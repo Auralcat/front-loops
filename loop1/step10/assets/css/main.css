@@ -91,8 +91,8 @@ input[type="text"] {
   border: 0;
   border-bottom: 2px solid #bbb;
   border-radius: 0;
-  padding: 0 0 4px 0;
-  margin: 6px 0 0 0;
+  padding: 0;
+  margin: 4px 0 0 0;
   transition: 0.2s;
   font-size: 16px;
   width: 19rem; }
@@ -103,7 +103,9 @@ input[type="text"]:hover {
 
 input[type="text"]:focus {
   color: #000;
-  border: 0; }
+  border: 0;
+  border-bottom: 2px solid #000;
+  margin-top: 4px; }
 
 .hero-unit {
   position: relative;
