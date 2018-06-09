@@ -57,10 +57,13 @@ nav > ul {
   left: 24%; }
 
 .var-text {
-  color: #d28f8b; }
+  color: #d28f8b;
+  font-size: 18px; }
 
 .var-display {
-  color: #fff; }
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500; }
 
 .arrow-container {
   width: 100px;
