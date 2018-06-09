@@ -3,6 +3,11 @@
     width: $size;
 }
 
+@mixin flex-horizontal-center {
+    align-items: center;
+    display: flex;
+}
+
 body {
     background-color: #de8a89;
     color: #fff;
@@ -12,9 +17,7 @@ body {
 }
 
 nav > ul {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+    @include flex-horizontal-center;
     justify-content: space-between;
     list-style-type: none;
     margin-bottom: 0;
@@ -48,8 +51,7 @@ nav > ul {
 }
 
 .square-container {
-    align-items: center;
-    display: flex;
+    @include flex-horizontal-center;
 }
 
 .square {
@@ -104,9 +106,8 @@ nav > ul {
 
 .arrow-container {
     @include square(100px);
-    align-items: center;
+    @include flex-horizontal-center;
     background-color: #ecb9b8;
-    display: flex;
     justify-content: center;
     transition: 0.2s;
 }
