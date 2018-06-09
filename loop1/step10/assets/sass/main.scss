@@ -31,6 +31,7 @@ h1 {
     color: #ea625c;
     width: 124px;
     justify-content: space-between;
+    transition: 0.2s;
 }
 
 .learn-more-line {
@@ -40,6 +41,10 @@ h1 {
     transition: 0.2s;
 }
 
+.container-extend {
+    width: 134px;
+}
+
 .line-extend {
     width: 42px;
 }
@@ -47,6 +52,8 @@ h1 {
 .learn-more-text {
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 /* ----------------------------- */
 /* Push top content to the right */
