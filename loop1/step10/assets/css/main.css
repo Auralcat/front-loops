@@ -2,18 +2,23 @@ body {
   margin: 0; }
 
 p {
-  font-size: 12px; }
+  font-size: 12px;
+  margin-bottom: 2rem; }
 
 h1 {
   font-size: 44px;
   font-weight: 600; }
 
-/* Helpers */
-.white {
-  color: #fff; }
+/* Shapes */
+.square-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 32px; }
 
-.gray {
-  color: #999; }
+.square {
+  background-color: #cfd0d0;
+  width: 4px;
+  height: 4px; }
 
 /* Push top content to the right */
 header, .hero-unit {
