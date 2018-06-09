@@ -1,3 +1,8 @@
+@mixin square($size) {
+    height: $size;
+    width: $size;
+}
+
 body {
     background-color: #de8a89;
     color: #fff;
@@ -48,8 +53,7 @@ nav > ul {
 }
 
 .square {
-    height: 300px;
-    width: 300px;
+    @include square(300px);
 }
 
 .timer-square {
@@ -99,13 +103,12 @@ nav > ul {
 }
 
 .arrow-container {
+    @include square(100px);
     align-items: center;
     background-color: #ecb9b8;
     display: flex;
-    height: 100px;
     justify-content: center;
     transition: 0.2s;
-    width: 100px;
 }
 
 .arrow-container:hover {
