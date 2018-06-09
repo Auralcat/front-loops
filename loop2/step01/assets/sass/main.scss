@@ -11,21 +11,21 @@ body {
 }
 
 nav > ul {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: row;
-    list-style-type: none;
     justify-content: space-between;
-    width: 120rem;
-    margin-left: calc(22rem + 4px);
+    list-style-type: none;
     margin-bottom: 0;
+    margin-left: calc(22rem + 4px);
+    width: 120rem;
 }
 
 .nav-item {
     font-size: 52px;
-    text-transform: uppercase;
     font-weight: 700;
     opacity: 0.8;
+    text-transform: uppercase;
     transition: 0.2s;
 }
 
@@ -35,10 +35,10 @@ nav > ul {
 
 .subtitle {
     font-size: 16px;
-    width: 71rem;
     font-weight: 500;
     /* There's a small offset */
     margin-left: calc(22rem + 8px);
+    width: 71rem;
 }
 
 .squares-and-selectors {
@@ -47,13 +47,13 @@ nav > ul {
 }
 
 .square-container {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .square {
-    width: 300px;
     height: 300px;
+    width: 300px;
 }
 
 .timer-square {
@@ -69,9 +69,9 @@ nav > ul {
 }
 
 .var-block {
+    left: 24%;
     position: relative;
     top: 36%;
-    left: 24%;
 }
 
 .var-text {
@@ -86,14 +86,14 @@ nav > ul {
 
 .start-button {
     background-color: #131313;
-    text-transform: uppercase;
-    position: relative;
-    left: 8%;
-    top: 63%;
-    padding: 1.5rem 10rem;
+    border: none;
     /* Override Skeleton's button height */
     height: 5rem;
-    border: none;
+    left: 8%;
+    padding: 1.5rem 10rem;
+    position: relative;
+    text-transform: uppercase;
+    top: 63%;
     transition: 0.2s ease-in-out;
 }
 
@@ -103,13 +103,13 @@ nav > ul {
 }
 
 .arrow-container {
-    width: 100px;
-    height: 100px;
-    background-color: #ecb9b8;
-    transition: 0.2s;
-    display: flex;
     align-items: center;
+    background-color: #ecb9b8;
+    display: flex;
+    height: 100px;
     justify-content: center;
+    transition: 0.2s;
+    width: 100px;
 }
 
 .arrow-container:hover {
