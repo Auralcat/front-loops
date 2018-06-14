@@ -4,14 +4,17 @@ body {
 
 .form-wrapper {
   background: #fdec51;
-  width: 40vw;
+  width: 35vw;
   height: 90vh;
   margin: 5vh auto;
   text-align: left; }
 
 .form {
   background: #fff;
-  box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.25); }
+  box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  position: relative;
+  left: 10%; }
 
 /* fieldset { */
 /*     border: none; */
