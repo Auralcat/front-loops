@@ -1,0 +1,21 @@
+body {
+    background: #2f2f2f;
+    text-align: center;
+}
+
+.form-wrapper {
+    background: #fdec51;
+    width: 40vw;
+    margin: auto;
+    text-align: left;
+}
+
+/* fieldset { */
+/*     border: none; */
+/*     border-bottom: 1px solid #eaeaea; */
+/* } */
+
+input, textarea {
+    border: none;
+    background: transparent;
+}
