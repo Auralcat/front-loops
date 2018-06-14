@@ -1,0 +1,44 @@
+/* Touching the SCSS file */
+header {
+  display: flex;
+  align-items: center; }
+
+.logo {
+  width: 2.5rem; }
+
+nav {
+  margin-left: auto; }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0; }
+
+li, li a {
+  color: #999; }
+
+li {
+  margin: 0 12px; }
+
+li a {
+  text-decoration: none;
+  transition: 0.2s; }
+
+li a:hover {
+  text-decoration: underline;
+  color: #595959;
+  transition: 0.2s ease-in-out; }
+
+.button-custom-primary {
+  color: #fff;
+  background-color: #ea625c;
+  letter-spacing: -1px;
+  border: none;
+  border-radius: 0; }
+  .button-custom-primary hover {
+    color: #c6221a; }
+
+.bottom-section {
+  background: url(../img/preview.jpg); }
+
+/*# sourceMappingURL=main.css.map */
