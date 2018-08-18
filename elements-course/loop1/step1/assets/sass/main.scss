@@ -19,3 +19,30 @@ body {
   padding: 12px;
   width: 100%;
 }
+
+.button-group {
+  border-radius: 4px;
+  border: 3px solid #5796ff;
+  display: flex;
+}
+
+.button-group:not(:last-child) {
+  border-right: none;
+}
+
+.button-group button {
+  cursor: pointer;
+}
+
+.button {
+  width: calc(100%/3);
+}
+
+.button:hover {
+  background-color: #d9e7f7;
+}
+
+.button:focus {
+  color: #fff;
+  background-color: #4e8cf9;
+}
