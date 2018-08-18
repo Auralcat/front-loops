@@ -1,6 +1,5 @@
 body {
-  background-color: #73b9ff;
-}
+  background-color: #73b9ff; }
 
 .box {
   background-color: #fff;
@@ -8,8 +7,7 @@ body {
   border: 2px solid #dedede;
   margin: 0 2vw;
   padding: 40px;
-  text-align: center;
-}
+  text-align: center; }
 
 .sort-select {
   background: transparent;
@@ -17,5 +15,6 @@ body {
   border: 3px solid #5796ff;
   margin: auto;
   padding: 12px;
-  width: 100%;
-}
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
