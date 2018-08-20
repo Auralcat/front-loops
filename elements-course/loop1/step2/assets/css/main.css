@@ -1,0 +1,22 @@
+body {
+  background-color: #2a80b9;
+  font-family: sans-serif;
+  text-align: center; }
+
+.box {
+  /* Center vertically and horizontally */
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  bottom: 0;
+  height: 10rem;
+  left: 0;
+  margin: auto;
+  padding: 1.5rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  width: 42vw; }
+
+/*# sourceMappingURL=main.css.map */
