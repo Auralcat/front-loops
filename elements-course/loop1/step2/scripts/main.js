@@ -10,3 +10,13 @@ for (let i = 0; i < $tabTitles.length; i++) {
         $tabContent.textContent = [capitalize( this.id ), 'content'].join(' ')
     })
 }
+
+// Implement tab selection through input elem
+document.getElementById('change-tab').addEventListener('click', function() {
+    let selectedValue = document.getElementById('tab-number-select').value - 1;
+    if (selectedValue >= 0 && selectedValue < $tabTitles.length) {
+        $tabContent.textContent = [capitalize( $tabTitles[selectedValue].id ), 'content'].join(' ')
+    } else {
+        alert('Invalid index.')
+    }
+})
