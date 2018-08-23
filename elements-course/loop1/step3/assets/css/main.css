@@ -14,6 +14,13 @@ body {
   margin: auto; }
 
 /* Mixins */
+/* Switch wrapper margins */
+.switch-wrapper:not(:last-child) {
+  margin-bottom: 20px; }
+
+.switch-wrapper:not(:first-child) {
+  margin-top: 20px; }
+
 .switch {
   height: 66px;
   width: 130px;
@@ -59,7 +66,7 @@ body {
 
 .box {
   /* Center vertically and horizontally */
-  height: 21rem;
+  height: 31rem;
   width: 42vw;
   background-color: #fff;
   border-radius: 4px;
