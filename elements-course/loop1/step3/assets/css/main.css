@@ -9,6 +9,10 @@ body {
   display: flex;
   flex-direction: column; }
 
+.align-center {
+  text-align: center;
+  margin: auto; }
+
 .switch {
   appearance: none;
   background-color: #e5e;
