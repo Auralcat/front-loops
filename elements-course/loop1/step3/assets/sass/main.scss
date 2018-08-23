@@ -30,6 +30,13 @@ body {
   border-radius: 95px;
 }
 
+.switch:after {
+  content: '';
+  width: 88px;
+  height: 88px;
+  border-radius: 86px;
+  z-index: 2;
+}
 .box {
   /* Center vertically and horizontally */
   background-color: #fff;
