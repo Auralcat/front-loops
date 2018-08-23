@@ -32,7 +32,19 @@ body {
   width: 88px;
   height: 88px;
   border-radius: 86px;
-  z-index: 2; }
+  z-index: 2;
+  background-color: #fff;
+  position: absolute;
+  transition: 500ms time;
+  top: 6px;
+  left: 6px;
+  box-shadow: 0 2px #999; }
+
+.switch__on, .switch__on:before {
+  background-color: #4cd964; }
+
+.switch__on:after {
+  left: 105px; }
 
 .box {
   /* Center vertically and horizontally */
