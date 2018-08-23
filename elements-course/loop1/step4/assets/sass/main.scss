@@ -8,18 +8,30 @@ body {
   width: $width;
 }
 
+@mixin circle($size) {
+  height: $size;
+  width: $size;
+  border-radius: 100%;
+  padding: 0.5 * $size;
+}
+
+ul {
+  list-style-type: none
+}
+
+.circled-number {
+  background-color: blue;
+  @include circle(12px);
+
+}
 .box {
   /* Center vertically and horizontally */
   @include rectangle(31rem, 42vw);
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #dedede;
-  bottom: 0;
-  left: 0;
   margin: auto;
   padding: 1.5rem;
-  position: absolute;
-  right: 0;
   text-align: left;
-  top: 0;
+  display: flex;
 }
