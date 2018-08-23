@@ -1,0 +1,25 @@
+body {
+  background-color: #8e44ad;
+  text-align: center;
+}
+
+@mixin rectangle($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+.box {
+  /* Center vertically and horizontally */
+  @include rectangle(31rem, 42vw);
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 1.5rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+}
