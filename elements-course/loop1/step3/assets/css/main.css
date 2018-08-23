@@ -6,6 +6,10 @@ body {
 .checkbox {
   display: none; }
 
+.switch-stack {
+  display: flex;
+  flex-direction: column; }
+
 .switch {
   width: 200px;
   height: 100px;
