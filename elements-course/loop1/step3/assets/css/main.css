@@ -25,7 +25,8 @@ body {
   height: 90px;
   background-color: #fff;
   z-index: 1;
-  border-radius: 95px; }
+  border-radius: 95px;
+  transition: 0.5s; }
 
 .switch:after {
   content: '';
@@ -33,9 +34,9 @@ body {
   height: 88px;
   border-radius: 86px;
   z-index: 2;
-  background-color: #fff;
+  background-color: #ddd;
   position: absolute;
-  transition: 500ms time;
+  transition: 0.5s;
   top: 6px;
   left: 6px;
   box-shadow: 0 2px #999; }
