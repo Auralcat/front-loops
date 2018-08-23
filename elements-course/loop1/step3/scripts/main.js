@@ -1,4 +1,5 @@
-let $switchList = [1, 2, 3, 4].map((n) => document.getElementById('switch' + n))
+let $switchList = [1, 2, 3, 4, 5]
+    .map((n) => document.getElementById('switch' + n))
 
 function randomToggleSwitch ($singleSwitch) {
     let trurl = Math.floor(Math.random() * 100)
