@@ -4,6 +4,32 @@ body {
   text-align: center;
 }
 
+.switch {
+  width: 200px;
+  height: 100px;
+  background-color: #e5e;
+  z-index: 0;
+  margin: 0px;
+  padding: 0px;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 100px;
+}
+
+.switch:before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 190px;
+  height: 90px;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 95px;
+}
+
 .box {
   /* Center vertically and horizontally */
   background-color: #fff;
