@@ -15,8 +15,8 @@ body {
 
 /* Mixins */
 .switch {
-  height: 100px;
-  width: 200px;
+  height: 66px;
+  width: 130px;
   background-color: #e5e;
   border-radius: 4rem;
   border: none;
@@ -32,21 +32,21 @@ body {
   position: absolute;
   top: 5px;
   transition: 0.5s;
-  height: 90px;
-  width: 190px;
+  height: 56px;
+  width: 120px;
   background-color: #fff;
   border-radius: 4rem;
   z-index: 1; }
 
 .switch:after {
   content: '';
-  left: 6px;
+  left: 5px;
   position: absolute;
-  top: 6px;
+  top: 5px;
   transition: 0.5s;
-  border-radius: 5.5rem;
-  height: 5.5rem;
-  width: 5.5rem;
+  border-radius: 54px;
+  height: 54px;
+  width: 54px;
   background-color: #ddd;
   box-shadow: 0 2px #999;
   z-index: 2; }
@@ -59,18 +59,18 @@ body {
 
 .box {
   /* Center vertically and horizontally */
+  height: 20rem;
+  width: 42vw;
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #dedede;
   bottom: 0;
-  height: 10rem;
   left: 0;
   margin: auto;
   padding: 1.5rem;
   position: absolute;
   right: 0;
   text-align: left;
-  top: 0;
-  width: 42vw; }
+  top: 0; }
 
 /*# sourceMappingURL=main.css.map */
