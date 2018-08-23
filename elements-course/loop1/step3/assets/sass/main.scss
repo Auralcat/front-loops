@@ -70,12 +70,12 @@ body {
 }
 
 .switch__on:after {
-  left: 105px;
+  left: 70px;
 }
 
 .box {
   /* Center vertically and horizontally */
-  @include rectangle(20rem, 42vw);
+  @include rectangle(21rem, 42vw);
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #dedede;
