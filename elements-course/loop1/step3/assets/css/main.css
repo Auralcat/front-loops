@@ -13,42 +13,42 @@ body {
   text-align: center;
   margin: auto; }
 
+/* Mixins */
 .switch {
-  appearance: none;
   background-color: #e5e;
-  border-radius: 100px;
+  border-radius: 4rem;
   border: none;
   cursor: pointer;
   height: 100px;
+  width: 200px;
   margin: 0px;
   padding: 0px;
   position: relative;
-  width: 200px;
   z-index: 0; }
 
 .switch:before {
-  background-color: #fff;
-  border-radius: 95px;
   height: 90px;
+  width: 190px;
+  background-color: #fff;
+  border-radius: 4rem;
   left: 5px;
   position: absolute;
   top: 5px;
   transition: 0.5s;
-  width: 190px;
   z-index: 1;
   content: ''; }
 
 .switch:after {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 5.5rem;
   background-color: #ddd;
-  border-radius: 86px;
   box-shadow: 0 2px #999;
   content: '';
-  height: 88px;
   left: 6px;
   position: absolute;
   top: 6px;
   transition: 0.5s;
-  width: 88px;
   z-index: 2; }
 
 .switch__on, .switch__on:before {

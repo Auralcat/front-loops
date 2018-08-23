@@ -17,44 +17,51 @@ body {
   margin: auto;
 }
 
+/* Mixins */
+@mixin circle($size) {
+  width: $size;
+  height: $size;
+  border-radius: $size;
+}
+
+@mixin rectangle($height, $width) {
+  height: $height;
+  width: $width;
+}
+
 .switch {
-  appearance: none;
   background-color: #e5e;
-  border-radius: 100px;
+  border-radius: 4rem;
   border: none;
   cursor: pointer;
-  height: 100px;
+  @include rectangle(100px, 200px);
   margin: 0px;
   padding: 0px;
   position: relative;
-  width: 200px;
   z-index: 0;
 }
 
 .switch:before {
+  @include rectangle(90px, 190px);
   background-color: #fff;
-  border-radius: 95px;
-  height: 90px;
+  border-radius: 4rem;
   left: 5px;
   position: absolute;
   top: 5px;
   transition: 0.5s;
-  width: 190px;
   z-index: 1;
   content: '';
 }
 
 .switch:after {
+  @include circle(5.5rem);
   background-color: #ddd;
-  border-radius: 86px;
   box-shadow: 0 2px #999;
   content: '';
-  height: 88px;
   left: 6px;
   position: absolute;
   top: 6px;
   transition: 0.5s;
-  width: 88px;
   z-index: 2;
 }
 
