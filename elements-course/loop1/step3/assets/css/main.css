@@ -15,40 +15,40 @@ body {
 
 /* Mixins */
 .switch {
+  height: 100px;
+  width: 200px;
   background-color: #e5e;
   border-radius: 4rem;
   border: none;
   cursor: pointer;
-  height: 100px;
-  width: 200px;
   margin: 0px;
   padding: 0px;
   position: relative;
   z-index: 0; }
 
 .switch:before {
-  height: 90px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 4rem;
+  content: '';
   left: 5px;
   position: absolute;
   top: 5px;
   transition: 0.5s;
-  z-index: 1;
-  content: ''; }
+  height: 90px;
+  width: 190px;
+  background-color: #fff;
+  border-radius: 4rem;
+  z-index: 1; }
 
 .switch:after {
-  width: 5.5rem;
-  height: 5.5rem;
-  border-radius: 5.5rem;
-  background-color: #ddd;
-  box-shadow: 0 2px #999;
   content: '';
   left: 6px;
   position: absolute;
   top: 6px;
   transition: 0.5s;
+  border-radius: 5.5rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: #ddd;
+  box-shadow: 0 2px #999;
   z-index: 2; }
 
 .switch__on, .switch__on:before {

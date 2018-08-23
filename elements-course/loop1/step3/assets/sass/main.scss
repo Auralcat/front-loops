@@ -19,9 +19,9 @@ body {
 
 /* Mixins */
 @mixin circle($size) {
-  width: $size;
-  height: $size;
   border-radius: $size;
+  height: $size;
+  width: $size;
 }
 
 @mixin rectangle($height, $width) {
@@ -29,12 +29,20 @@ body {
   width: $width;
 }
 
+@mixin animate_movement($left, $top) {
+  content: '';
+  left: $left;
+  position: absolute;
+  top: $top;
+  transition: 0.5s;
+}
+
 .switch {
+  @include rectangle(100px, 200px);
   background-color: #e5e;
   border-radius: 4rem;
   border: none;
   cursor: pointer;
-  @include rectangle(100px, 200px);
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -42,26 +50,18 @@ body {
 }
 
 .switch:before {
+  @include animate_movement(5px, 5px);
   @include rectangle(90px, 190px);
   background-color: #fff;
   border-radius: 4rem;
-  left: 5px;
-  position: absolute;
-  top: 5px;
-  transition: 0.5s;
   z-index: 1;
-  content: '';
 }
 
 .switch:after {
+  @include animate_movement(6px, 6px);
   @include circle(5.5rem);
   background-color: #ddd;
   box-shadow: 0 2px #999;
-  content: '';
-  left: 6px;
-  position: absolute;
-  top: 6px;
-  transition: 0.5s;
   z-index: 2;
 }
 
