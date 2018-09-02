@@ -1,0 +1,99 @@
+body {
+  background-color: #2a80b9;
+  text-align: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.switch-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  text-align: center;
+  margin: auto;
+}
+
+/* Mixins */
+@mixin circle($size) {
+  border-radius: $size;
+  height: $size;
+  width: $size;
+}
+
+@mixin rectangle($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin animate_movement($left, $top) {
+  content: '';
+  left: $left;
+  position: absolute;
+  top: $top;
+  transition: 0.5s;
+}
+
+/* Switch wrapper margins */
+.switch-wrapper:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.switch-wrapper:not(:first-child) {
+  margin-top: 20px;
+}
+
+.switch {
+  @include rectangle(66px, 130px);
+  background-color: #e5e;
+  border-radius: 4rem;
+  border: none;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+.switch:before {
+  @include animate_movement(5px, 5px);
+  @include rectangle(56px, 120px);
+  background-color: #fff;
+  border-radius: 4rem;
+  z-index: 1;
+}
+
+.switch:after {
+  @include animate_movement(5px, 5px);
+  @include circle(54px);
+  background-color: #ddd;
+  box-shadow: 0 2px #999;
+  z-index: 2;
+}
+
+.switch__on, .switch__on:before {
+  background-color: #4cd964;
+}
+
+.switch__on:after {
+  left: 70px;
+}
+
+.box {
+  /* Center vertically and horizontally */
+  @include rectangle(31rem, 42vw);
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 1.5rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+}
